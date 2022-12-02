@@ -50,7 +50,7 @@ body {
 }
 /* Main Image on Page */
 .main-right{
-  background: url(/Photos/drink.jpg);
+  background: url(Photos/drink.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -62,7 +62,7 @@ body {
 
 /* Second Section */
 .contact-left{
-  background: url(/Photos/cheers.jpg);
+  background: url(Photos/cheers.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -176,3 +176,19 @@ form .submit:hover {
   border-radius: 1rem;
 }
 /* FORM END */
+
+@media screen and (max-width: 700px) {
+  .main-container {
+    height: 80vh;
+    width: 100vw;
+  }
+  .logo{
+    width: 90%;
+  }
+  .second-container{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+}
