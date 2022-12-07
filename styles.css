@@ -62,6 +62,11 @@ body {
 
 /* Second Section */
 .contact-left{
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
   background: url(Photos/cheers.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -178,10 +183,6 @@ form .submit:hover {
 /* FORM END */
 
 @media screen and (max-width: 700px) {
-  .main-container {
-    height: 80vh;
-    width: 100vw;
-  }
   .logo{
     width: 90%;
   }
@@ -191,4 +192,8 @@ form .submit:hover {
 }
 
 @media screen and (max-width: 1000px) {
+
+  .services-section{
+    padding: 8rem 2rem 4rem 2rem;
+  }
 }
